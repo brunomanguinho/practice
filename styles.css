@@ -1,0 +1,73 @@
+.bg-red{
+    background-color: red;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-purple{
+    background-color: purple;
+}
+
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.sidemenuitem{
+    background-image: linear-gradient(to top, rgba(161, 161, 235, 0.801), rgba(145, 100, 200, 0.801));
+    border: solid;
+    text-decoration: none;
+    text-wrap: nowrap;
+    border-radius: 8px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: small;
+    font-weight: bold;
+    height: 38px;
+}
+
+.sidemenuitem-clicked{
+    background-color: blue;
+}
+
+.sidemenuitem:hover{
+    background-color: darkgray;
+    background-image: none;
+}
+
+
+
+
+
+
+@media (min-width: 768px) { /* md */
+    
+    #div1 {
+        flex: 0 0 20%; /* largura 25% */
+    }
+    #div2{
+        flex: 0 0 80%;
+    }
+  }
+  
+  @media (max-width: 767.98px) { /* menor que md */
+    #div1 {
+        flex: 0 0 100%; /* largura 100% */
+    }
+    #div2 {
+        flex: 0 0 100%;
+    }
+  }
+  
